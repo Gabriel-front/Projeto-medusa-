@@ -1,0 +1,5 @@
+No desenvolvimento do projeto de cibersegurança, foi realizada a configuração de um ambiente virtual utilizando o software Oracle VM VirtualBox. Inicialmente, foram criadas duas máquinas virtuais distintas: uma utilizando a distribuição Kali Linux, voltada para testes de segurança, e outra com a imagem Metasploitable2, projetada especificamente para simulação de vulnerabilidades.
+
+Ambas as máquinas foram configuradas em uma rede do tipo Host-Only, com o objetivo de permitir a comunicação entre elas de forma isolada, sem acesso direto à rede externa, garantindo assim um ambiente controlado para testes.
+
+Durante a configuração da máquina Metasploitable2, foi necessário habilitar o serviço de DHCP na rede Host-Only, a fim de permitir a atribuição automática de endereços IP. Essa etapa foi fundamental para possibilitar a correta identificação da interface de rede por meio do comando ip a, assegurando a conectividade entre as máquinas virtuais.
